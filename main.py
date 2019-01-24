@@ -7,8 +7,14 @@ from artist.choose_songs import choose_songs
 from artist.update_playlist import update_playlist
 
 def main():
-    username = environ['username']
-    playlist_goal = '4v3NiG1FGPSPzCI1Be0if6'
+
+    try:
+        username = environ['username']
+        playlist_goal = environ['ARTIST_PLAYLIST']
+
+    except KeyError as k:
+         print(k, 'must be defined in the environment or you need to define the variables with your custom data')
+         return 0 
 
     Spotify = auth(username, playlist_goal)
 
