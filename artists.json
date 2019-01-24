@@ -1,34 +1,344 @@
 {
-  "artists":{ 
-      "The White Stripes": "4F84IBURUo98rz4r61KF70",
-      "Metallica": "2ye2Wgw4gimLv2eAKyk1NB",
-      "Iron Maiden": "6mdiAmATAx73kdxrNrnlao",
-      "Pink Floyd": "0k17h0D3J5VfsdmQ1iZtE9",
-      "Motorhead": "1DFr97A9HnbV3SKTJFu62M",
-      "Molotov": "27Owkm4TGlMqb0BqaEt3PW",
-      "Ghost": "1Qp56T7n950O3EGMsSl81D",
-      "Jimi Hendrix": "776Uo845nYHJpNaStv1Ds4",
-      "Queen": "1dfeR4HaWDbWqFHLkxsg1d",
-      "Slipknot": "05fG473iIaoy82BF1aGhL8",
-      "The Offspring": "5LfGQac0EIXyAN8aUwmNAQ",
-      "El Cuarteto de Nos": "13JJKrUewC1CJYmIDXQNoH",
-      "Pixies": "6zvul52xwTWzilBZl6BUbT",
-      "Talking Heads": "2x9SpqnPi8rlE9pjHBwmSC",
-      "Journey": "0rvjqX7ttXeg3mTy8Xscbt",
-      "Mon Laferte": "4boI7bJtmB1L3b1cuL75Zr",
-      "alt-j": "3XHO7cRUPCLOr6jwp8vsx5",
-      "Radiohead": "4Z8W4fKeB5YxbusRsdQVPb",
-      "Gojira": "0GDGKpJFhVpcjIGF8N6Ewt",
-      "Pantera": "14pVkFUHDL207LzLHtSA18",
-      "Avenged Sevenfold": "0nmQIMXWTXfhgOBdNzhGOs",
-      "Greta Van Fleet": "4NpFxQe2UvRCAjto3JqlSl",
-      "Ska-P": "2fiiGUBgPsIKDCE0bTthnl",
-      "Muse": "12Chz98pHFMPJEknJQMWvI",
-      "Caifanes": "1GImnM7WYVp95431ypofy9",
-      "Nirvana": "6olE6TJLqED3rqDCT0FyPh",
-      "The Beatles": "3WrFJ7ztbogyGnTHbHJFl2",
-      "Tenacious D": "1XpDYCrUJnvCo9Ez6yeMWh",
-      "De Nalgas": "4VZR1CBFS8AR4zqrtn7Dlh",
-      "Eminem": "7dGJo4pcD2V6oG8kP0tJRR"
-  }
+  "artists": [
+    {
+      "name": "The White Stripes",
+      "id": "4F84IBURUo98rz4r61KF70"
+    },
+    {
+      "name": "Metallica",
+      "id": "2ye2Wgw4gimLv2eAKyk1NB"
+    },
+    {
+      "name": "Iron Maiden",
+      "id": "6mdiAmATAx73kdxrNrnlao"
+    },
+    {
+      "name": "Pink Floyd",
+      "id": "0k17h0D3J5VfsdmQ1iZtE9"
+    },
+    {
+      "name": "Motorhead",
+      "id": "1DFr97A9HnbV3SKTJFu62M"
+    },
+    {
+      "name": "Molotov",
+      "id": "27Owkm4TGlMqb0BqaEt3PW"
+    },
+    {
+      "name": "Ghost",
+      "id": "1Qp56T7n950O3EGMsSl81D"
+    },
+    {
+      "name": "Jimi Hendrix",
+      "id": "776Uo845nYHJpNaStv1Ds4"
+    },
+    {
+      "name": "Queen",
+      "id": "1dfeR4HaWDbWqFHLkxsg1d"
+    },
+    {
+      "name": "Slipknot",
+      "id": "05fG473iIaoy82BF1aGhL8"
+    },
+    {
+      "name": "The Offspring",
+      "id": "5LfGQac0EIXyAN8aUwmNAQ"
+    },
+    {
+      "name": "El Cuarteto De Nos",
+      "id": "13JJKrUewC1CJYmIDXQNoH"
+    },
+    {
+      "name": "Pixies",
+      "id": "6zvul52xwTWzilBZl6BUbT"
+    },
+    {
+      "name": "Talking Heads",
+      "id": "2x9SpqnPi8rlE9pjHBwmSC"
+    },
+    {
+      "name": "Journey",
+      "id": "0rvjqX7ttXeg3mTy8Xscbt"
+    },
+    {
+      "name": "Mon Laferte",
+      "id": "4boI7bJtmB1L3b1cuL75Zr"
+    },
+    {
+      "name": "Alt-j",
+      "id": "3XHO7cRUPCLOr6jwp8vsx5"
+    },
+    {
+      "name": "Radiohead",
+      "id": "4Z8W4fKeB5YxbusRsdQVPb"
+    },
+    {
+      "name": "Gojira",
+      "id": "0GDGKpJFhVpcjIGF8N6Ewt"
+    },
+    {
+      "name": "Pantera",
+      "id": "14pVkFUHDL207LzLHtSA18"
+    },
+    {
+      "name": "Avenged Sevenfold",
+      "id": "0nmQIMXWTXfhgOBdNzhGOs"
+    },
+    {
+      "name": "Greta Van Fleet",
+      "id": "4NpFxQe2UvRCAjto3JqlSl"
+    },
+    {
+      "name": "Ska-P",
+      "id": "2fiiGUBgPsIKDCE0bTthnl"
+    },
+    {
+      "name": "Muse",
+      "id": "12Chz98pHFMPJEknJQMWvI"
+    },
+    {
+      "name": "Caifanes",
+      "id": "1GImnM7WYVp95431ypofy9"
+    },
+    {
+      "name": "Nirvana",
+      "id": "6olE6TJLqED3rqDCT0FyPh"
+    },
+    {
+      "name": "The Beatles",
+      "id": "3WrFJ7ztbogyGnTHbHJFl2"
+    },
+    {
+      "name": "Tenacious D",
+      "id": "1XpDYCrUJnvCo9Ez6yeMWh"
+    },
+    {
+      "name": "De Nalgas",
+      "id": "4VZR1CBFS8AR4zqrtn7Dlh"
+    },
+    {
+      "name": "Eminem",
+      "id": "7dGJo4pcD2V6oG8kP0tJRR"
+    },
+    {
+      "name": "The Cure",
+      "id": "7bu3H8JO7d0UbMoVzbo70s"
+    },
+    {
+      "name": "Soda Stereo",
+      "id": "7An4yvF7hDYDolN4m5zKBp"
+    },
+    {
+      "name": "The Doors",
+      "id": "22WZ7M8sxp5THdruNY3gXt"
+    },
+    {
+      "name": "The Police",
+      "id": "5NGO30tJxFlKixkPSgXcFE"
+    },
+    {
+      "name": "Oasis",
+      "id": "2DaxqgrOhkeH0fpeiQq2f4"
+    },
+    {
+      "name": "Blur",
+      "id": "7MhMgCo0Bl0Kukl93PZbYS"
+    },
+    {
+      "name": "Jack White",
+      "id": "4FZ3j1oH43e7cukCALsCwf"
+    },
+    {
+      "name": "Band Of Horses",
+      "id": "0OdUWJ0sBjDrqHygGUXeCF"
+    },
+    {
+      "name": "Luis Miguel",
+      "id": "2nszmSgqreHSdJA3zWPyrW"
+    },
+    {
+      "name": "Twenty One Pilots",
+      "id": "3YQKmKGau1PzlVlkL1iodx"
+    },
+    {
+      "name": "Led Zeppelin",
+      "id": "36QJpDe2go2KgaRleHCDTp"
+    },
+    {
+      "name": "The Rolling Stones",
+      "id": "22bE4uQ6baNwSHPVcDxLCe"
+    },
+    {
+      "name": "Rage Against The Machine",
+      "id": "2d0hyoQ5ynDBnkvAbJKORj"
+    },
+    {
+      "name": "Coldplay",
+      "id": "4gzpq5DPGxSnKTe4SA8HAU"
+    },
+    {
+      "name": "Gorillaz",
+      "id": "3AA28KZvwAUcZuOKwyblJQ"
+    },
+    {
+      "name": "Cage The Elephant",
+      "id": "26T3LtbuGT1Fu9m0eRq5X3"
+    },
+    {
+      "name": "Black Sabbath",
+      "id": "5M52tdBnJaKSvOpJGz8mfZ"
+    },
+    {
+      "name": "Mago De Oz",
+      "id": "5ZNxiPcbKgaNcBrERMpqeu"
+    },
+    {
+      "name": "Enanitos Verdes",
+      "id": "4TK1gDgb7QKoPFlzRrBRgR"
+    },
+    {
+      "name": "Fobia",
+      "id": "3SqzxvGCKGJ9PYKXXPwjQS"
+    },
+    {
+      "name": "Red Hot Chilli Peppers",
+      "id": "0L8ExT028jH3ddEcZwqJJ5"
+    },
+    {
+      "name": "Johny Cash",
+      "id": "6kACVPfCOnqzgfEF5ryl0x"
+    },
+    {
+      "name": "David Bowie",
+      "id": "0oSGxfWSnnOXhD2fKuz2Gy"
+    },
+    {
+      "name": "Billy Joel",
+      "id": "6zFYqv1mOsgBRQbae3JJ9e"
+    },
+    {
+      "name": "Calle 13",
+      "id": "0yNSzH5nZmHzeE2xn6Xshb"
+    },
+    {
+      "name": "Marylin Manson",
+      "id": "2VYQTNDsvvKN9wmU5W7xpj"
+    },
+    {
+      "name": "Cafe Tacvba",
+      "id": "09xj0S68Y1OU1vHMCZAIvz"
+    },
+    {
+      "name": "Foo Fighters",
+      "id": "7jy3rLJdDQY21OgRLCZ9sD"
+    },
+    {
+      "name": "The Smiths",
+      "id": "3yY2gUcIsjMr8hjo51PoJ8"
+    },
+    {
+      "name": "Linkin Park",
+      "id": "6XyY86QOPPrYVGvF9ch6wz"
+    },
+    {
+      "name": "AC/DC",
+      "id": "711MCceyCBcFnzjGY4Q7Un"
+    },
+    {
+      "name": "Guns N Roses",
+      "id": "3qm84nBOXUEQ2vnTfUTTFC"
+    },
+    {
+      "name": "Maldita Vecindad",
+      "id": "6WvDtNFHOWHfiNy8NVHujT"
+    },
+    {
+      "name": "Aerosmith",
+      "id": "7Ey4PD4MYsKc5I2dolUwbH"
+    },
+    {
+      "name": "Slayer",
+      "id": "1IQ2e1buppatiN1bxUVkrk"
+    },
+    {
+      "name": "Anthrax",
+      "id": "3JysSUOyfVs1UQ0UaESheP"
+    },
+    {
+      "name": "Megadeth",
+      "id": "1Yox196W7bzVNZI7RBaPnf"
+    },
+    {
+      "name": "Cannibal Corpse",
+      "id": "0yLwGBQiBqhXOvmTfH2A7n"
+    },
+    {
+      "name": "Sex Pistols",
+      "id": "1u7kkVrr14iBvrpYnZILJR"
+    },
+    {
+      "name": "Cream",
+      "id": "74oJ4qxwOZvX6oSsu1DGnw"
+    },
+    {
+      "name": "Dead Kennedys",
+      "id": "30U8fYtiNpeA5KH6H87QUV"
+    },
+    {
+      "name": "Mac DeMarco",
+      "id": "3Sz7ZnJQBIHsXLUSo0OQtM"
+    },
+    {
+      "name": "King Gizzard And The Lizard Wizard",
+      "id": "6XYvaoDGE0VmRt83Jss9Sn"
+    },
+    {
+      "name": "The Black Keys",
+      "id": "7mnBLXK823vNxN3UWB7Gfz"
+    },
+    {
+      "name": "Korn",
+      "id": "3RNrq3jvMZxD9ZyoOZbQOD"
+    },
+    {
+      "name": "Deep Purple",
+      "id": "568ZhdwyaiCyOGJRtNYhWf"
+    },
+    {
+      "name": "Credence Clearwater Revival",
+      "id": "3IYUhFvPQItj6xySrBmZkd"
+    },
+    {
+      "name": "Pearl Jam",
+      "id": "1w5Kfo2jwwIPruYS2UWh56"
+    },
+    {
+      "name": "Stone Sour",
+      "id": "49qiE8dj4JuNdpYGRPdKbF"
+    },
+    {
+      "name": "A Perfect Circle",
+      "id": "4DFhHyjvGYa9wxdHUjtDkc"
+    },
+    {
+      "name": "Death From Above 1979",
+      "id": "18H0sAptzdwid08XGg1Lcj"
+    },
+    {
+      "name": "Royal Blood",
+      "id": "2S5hlvw4CMtMGswFtfdK15"
+    },
+    {
+      "name": "Black Pistol Fire",
+      "id": "0Nrwy16xCPXG8AwkMbcVvo"
+    },
+    {
+      "name": "Eric Claptopn",
+      "id": "6PAt558ZEZl0DmdXlnjMgD"
+    },
+    {
+      "name": "Artic Monkeys",
+      "id": "7Ln80lUS6He07XvHI8qqHH"
+    }
+  ]
 }
