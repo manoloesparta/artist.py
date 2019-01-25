@@ -47,5 +47,20 @@ Exceute with
 python3 main.py
 ```
 
+## Docker
+For bulding your own docker container you need to specify some enviroment variables with:
+```bash
+docker build -t artist.py \
+--build-arg user='username' \
+--build-arg playlist='0iYFyrLsby2E0QBBPs2xWi' \
+--build-arg id='8589a322e8b142a0bf76ac9da43cfb92' \
+--build-arg secret='cd0629c79f544c959ebbbbb23fd0239b' \
+--build-arg uri='http://google.com/' .
+```
+For running the container
+```bash
+docker run --rm -v $(pwd):/user/src/ -it artist.py bash
+```
+
 ## License
 This project is licensed under the MIT License
